@@ -44,7 +44,7 @@ function addTodo(todo)  {
 
 input.addEventListener("keyup", e => {
   let todo = input.value.trim();
-  if (!todo || e.key != "Ente") {
+  if (!todo || e.key != "Enter") {
     return;
   }
   addTodo(todo);
